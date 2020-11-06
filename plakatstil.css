@@ -1,0 +1,56 @@
+html{
+	background-color: black;
+	font-family: Helvetica, Arial, sans-serif;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+body{
+	box-sizing: border-box;
+	background-color: #dedede;
+	width: 595px;
+	height: 842px;
+	display: flex;
+	justify-content: space-around;
+	display: grid;
+	grid-template-rows: 
+}
+.black, .drei{
+	padding-left: 10%;
+	padding-right: 5%;
+}
+.drei{
+	box-sizing: border-box;
+
+}
+.red{
+	color: red;
+}
+.blue{
+	color: blue;
+	margin-top: -50px;
+}
+.green{
+	color: green;
+	margin-top: -50px;
+}
+.liste{
+	margin-top: -20px;
+	display: grid;
+	list-style: none;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-left: -40px;
+}
+h1{
+	font-size: 60px;
+	font-weight: 700;
+	letter-spacing: -4px;
+	margin-left: -4px;
+	margin-bottom: -20px;
+}
+h3, li{
+	font-size: 17px;
+	font-weight: 400;
+	letter-spacing: -0.5px;
+	list-style: none;
+}
